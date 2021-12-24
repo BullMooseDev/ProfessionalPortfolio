@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.headerone {
+margin: 15px;
+background-color: #a52a2a;
+border-radius: 5%;
+}
+
+h1 {
+    color: blueviolet;
+    display: inline-block;
+}
+
+section {
+    float: right;
+}
+
+section ul li {
+    display: inline-block;
+    margin-left: 25px;
+    align-items: center;
+}
+
+.hero {
+    align-self: center;
+    background-color: cornflowerblue;
+    margin: 10px;
+
+}
+
+.projects {
+    position: relative;
+}
