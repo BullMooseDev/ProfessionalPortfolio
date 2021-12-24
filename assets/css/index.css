@@ -1,35 +1,54 @@
-* {
-    box-sizing: border-box;
+/* Add css below here */
+
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
 }
 
-.headerone {
-margin: 15px;
-background-color: #a52a2a;
-border-radius: 5%;
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
 }
 
-h1 {
-    color: blueviolet;
-    display: inline-block;
+header * {
+    display: inline;
+    height: 50px;
 }
 
-section {
-    float: right;
+header ul {
+    padding: 0;
 }
 
-section ul li {
-    display: inline-block;
-    margin-left: 25px;
-    align-items: center;
+header li {
+    margin-left: 20px;
 }
 
-.hero {
-    align-self: center;
-    background-color: cornflowerblue;
-    margin: 10px;
-
+footer {
+    text-align: center;
+    padding: 50px;
 }
 
-.projects {
-    position: relative;
+/* backgound images for different sections */
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(assets/images/wintercastle.jpg);
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(assets/images/scotcastle.jpg);
+}
+
+#projects {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(assets/images/RememberWhatWas.jpg);
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(assets/images/neuscastle.jpg);
 }
