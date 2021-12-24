@@ -1,5 +1,8 @@
 /* Add css below here */
-
+* {   
+    margin: 0;
+    padding: 0;
+}
 body {
     margin: 0;
     margin-top: 50px;
@@ -9,17 +12,25 @@ body {
 header {
     display: flex;
     position: fixed;
+    justify-content: space-between;
     top: 0;
     left: 0;
     right: 0;
     height: 50px;
     line-height: 50px;
-    background-color: #eee;
+    background-color: white;
 }
 
 header * {
     display: inline;
     height: 50px;
+}
+
+.intro h2 {
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
 }
 
 header ul {
@@ -35,20 +46,68 @@ footer {
     padding: 50px;
 }
 
+.aboutinner {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutinner h2 {
+    text-align:  start;
+    margin-bottom: 10px;
+}
+
+.aboutinner p {
+    margin-left: 10px;
+}
+
+.RunBuddy {
+    display: block;
+    min-height: 150px;
+    min-width: 150px;
+    margin: 25px;
+    background-image: url("../images/Screenshot\ \(4\).png");
+    background-position: center;
+    border: blueviolet solid 3px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.HoriseonMarketing {
+    display: block;
+    min-height: 150px;
+    min-width: 150px;
+    margin: 25px;
+    background-image: url("../images/Screenshot\ \(2\).png");
+    background-position: center;
+    border: blueviolet solid 3px;
+    color:white;
+    text-align: center;
+}
+
 /* backgound images for different sections */
 
 #hero {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(assets/images/wintercastle.jpg);
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("../images/wintercastle.jpg");
+    height: 75px;
 }
 
-#about {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(assets/images/scotcastle.jpg);
+#aboutme {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("../images/scotcastle.jpg");
+    height: 200px;
 }
 
 #projects {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(assets/images/RememberWhatWas.jpg);
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("../images/RememberWhatWas.jpg");
+    height: min-content;
+    padding-bottom: 20px;
 }
 
-#contact {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(assets/images/neuscastle.jpg);
+#contactme {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("../images/neuscastle.jpg");
+    height: 200px;
 }
