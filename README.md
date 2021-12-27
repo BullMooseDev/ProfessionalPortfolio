@@ -1,1 +1,1 @@
-This is a readme file.
+This is a readme file containing information on the Portfolio webstie I've created. The portfolio website holds two of my projects and a way to contact me. there is also a small about me section and an image of a moose which I am using as my avatar.
