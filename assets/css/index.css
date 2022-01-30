@@ -83,7 +83,7 @@ footer {
 
 .HoriseonMarketing {
     display: block;
-    min-height: 300px;
+    min-height: 150px;
     min-width: 150px;
     margin: 25px;
     background-image: url("../images/Screenshot\ \(2\).png");
@@ -92,6 +92,20 @@ footer {
     color:white;
     text-align: center;
 }
+
+.cryptoChasers {
+    display: block;
+    min-height: 300px;
+    min-width: 150px;
+    margin: 25px;
+    background-image: url("../images/cryptochasers.PNG");
+    background-position: center;
+    border: blueviolet solid 3px;
+    color:white;
+    text-align: center;
+}
+
+
 
 /* backgound images for different sections */
 
